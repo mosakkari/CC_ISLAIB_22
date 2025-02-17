@@ -62,12 +62,6 @@ Le cloud computing joue un rôle clé dans le traitement et le stockage de grand
 ## 3. Livre Open Source - Cloud Computing for Science and Engineering  
 📖 [Lire en ligne](https://cloud4scieng.org/)  
 
-## 4. Tutoriels et formations Cloud Native  
-🚀 [The Linux Foundation - Cloud Native & Kubernetes](https://training.linuxfoundation.org/training/cloud-engineering/)  
-
-## 5. Big Data et Cloud Storage  
-📊 [Google Cloud - Data Engineering](https://cloud.google.com/learn/data-engineering)  
-
 
 ---
 

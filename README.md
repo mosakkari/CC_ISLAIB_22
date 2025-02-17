@@ -1,55 +1,45 @@
-# Cours - Big Data
-Ce cours **Big Data** couvre les concepts fondamentaux du Big Data, les principaux outils de son écosystème, et une mise en œuvre pratique d’Hadoop, allant de notions de base de Big data jusqu'à la création d’un cluster multi-nœuds.
+# Cours - Cloud Computing
+Le cloud computing révolutionne la manière dont les entreprises gèrent et déploient leurs applications en offrant des solutions flexibles, évolutives et accessibles à la demande. Ce cours explore les concepts fondamentaux du cloud, les principales plateformes existantes et les outils modernes de développement. Les étudiants découvriront les technologies essentielles pour concevoir, déployer et gérer des applications dans le cloud. À travers des études de cas et des exercices pratiques, ils apprendront à exploiter pleinement le potentiel du cloud computing
 
 ---
 ## Objectifs du cours
-1. Comprendre les notions de base du Big Data et ses cas d’utilisation.
-2. Explorer l’écosystème du Big Data et ses principaux outils.
-3. Apprendre les principes fondamentaux de Hadoop et de MapReduce.
-4. Installer et configurer Hadoop en mode single-node.
-5. Mettre en place un cluster Hadoop multi-nœuds.
+1. Présenter divers concepts, technologies et outils fondamentaux du cloud computing.
+2. Familiariser les étudiants avec les différentes plateformes de cloud computing.
+3. Présenter les derniers outils et technologies utilisés pour développer et déployer des applications cloud.
+
    
 ---
 ## Plan du cours
 
-1. **Notions de base de Big data**
-2. **L’écosystème du Big Data**
-3. **Principes fondamentaux de Hadoop MapReduce**
-4. **Hadoop en single-node**
-5. **Hadoop en N-machines**
+1. **Notions fondamentales du Cloud Computing**
+2. **Architecture Cloud Computing**
+3. **Stockage de données en nuage**
   
 ---
 
 ## Évaluation
 
-- **TPs notés** : 40%  
-  - Réalisation de travaux pratiques en classe.  
-- **Examen pratique de fin de formation** : 60%  
-  - Une évaluation pratique qui couvre l’ensemble des concepts et technologies abordés.  
+- **Examen TP** : 60%  
+  - Une évaluation pratique.   
+- **Examen de fin de formation** : 40%  
+  - Une évaluation qui couvre l’ensemble des concepts et technologies abordés.  
 
 ---
 ## Structure du Dossier
 
-### 1. [Notions de base](cours/Notions_de_base.pdf) 
+### 1. [Notions fondamentales du Cloud Computing](cours/Notions_fondamentales_du_Cloud_Computing.pdf) 
 
-Cette partie introduit les concepts fondamentaux du Big Data, en expliquant pourquoi il est devenu essentiel dans le traitement des données massives. On y explore les 5V (Volume, Vélocité, Variété, Véracité, Valeur) qui caractérisent le Big Data, ainsi que des exemples concrets de son application dans différents domaines comme l’analyse prédictive, les recommandations personnalisées et les systèmes intelligents
+Dans ce chapitre, nous commencerons par définir les notions clés et la terminologie associée au cloud. Ensuite, nous explorerons ses objectifs et avantages, tant pour les entreprises que pour les utilisateurs. Un retour sur les évolutions historiques du cloud nous permettra de mieux comprendre son émergence. Enfin, nous analyserons les principales technologies qui rendent possible cette transformation numérique
 
-### 2. [L’écosystème du Big Data](cours/L’écosystème_du_Big_Data.pdf)
+### 2. [Architecture Cloud Computing](cours/Architecture_Cloud_Computing.pdf)
 
 
-Ce chapitre présente les outils clés de l’écosystème Big Data, leur rôle et leurs interactions.
+L’architecture du cloud computing repose sur des principes et des modèles qui définissent son fonctionnement et ses capacités. Ce chapitre explore d’abord les principales caractéristiques du cloud, telles que l’élasticité et l’accès à la demande. Ensuite, nous étudierons les modèles standards qui structurent le cloud, avant d’aborder les différentes approches de déploiement (public, privé, hybride, communautaire). Enfin, nous analyserons les modèles de services cloud (IaaS, PaaS, SaaS) qui permettent aux utilisateurs de choisir des solutions adaptées à leurs besoins..
 
-### 3. [Principes fondamentaux de Hadoop MapReduce](cours/Principes_fondamentaux_de_Hadoop_MapReduce.pdf)
+### 3. [Stockage de données en nuage](cours/Stockage_de_données_en_nuage.pdf)
 
-On y apprend le fonctionnement de MapReduce, un modèle de programmation distribué qui permet de traiter de gros volumes de données
+Le cloud computing joue un rôle clé dans le traitement et le stockage de grandes quantités de données. Ce chapitre aborde d’abord le data-intensive computing, un paradigme essentiel pour l’analyse et le traitement massif des données. Ensuite, nous explorerons MapReduce, une approche incontournable pour le Big Data, avant d’étudier le Cloud Native File System (CNFS), conçu pour une gestion efficace des fichiers dans le cloud. Nous analyserons également les modèles de déploiement du stockage, adaptés aux besoins variés des entreprises. Enfin, nous présenterons les bases de données NoSQL et leur intégration dans le cloud, offrant des solutions évolutives et performantes
 
-### 4. [Hadoop en mode Single-Node](/tp/TP01.pdf)
-
-Cette section est dédiée à la configuration et à l’installation de Hadoop sur une seule machine, permettant de se familiariser avec l’outil avant de passer à une infrastructure distribuée. On y apprend le fonctionnement de MapReduce, un modèle de programmation distribué qui permet de traiter de gros volumes de données
-
-### 5. [Cluster Hadoop de N Machines](/tp/TP02.pdf)
-
-Dans cette partie, on met en œuvre un véritable cluster Hadoop avec plusieurs machines (maître et deux esclaves)
 
 ---
 
@@ -57,11 +47,26 @@ Dans cette partie, on met en œuvre un véritable cluster Hadoop avec plusieurs 
 
 1. **Lire les cours** : Chaque fichier PDF contient des explications théoriques. Lisez-les dans l'ordre pour suivre une progression logique.
 2. **Participer aux séances en classe** : Les concepts clés sont approfondis et illustrés avec des exemples concrets pendant les séances collectives. Ces échanges sont cruciaux pour maîtriser le contenu du cours.
-3. **Travailler sur les TP** : Les exercices pratiques associés se trouvent dans le dossier [TP](/tp). Ces travaux pratiques vous permettront d'appliquer les notions vues en cours.
+3. **Travailler sur les TP** : Les exercices pratiques associés sont accessibles sur le serveur dédié de l’Institut. Les sujets et les ressources sont disponibles uniquement après connexion avec votre adresse email universitaire et le mot de passe fourni lors de la première séance. Un accès est possible en dehors du réseau de l’ISLAIB. Pour une connexion depuis chez vous, un guide intitulé "Travailler depuis chez moi sur le serveur ISLAIB" est mis à votre disposition. Ces travaux pratiques vous permettront d’appliquer les notions abordées en cours.
 ---
-## Ressources   
-- [Apache Hadoop Documentation](https://hadoop.apache.org/)  
-- [Hadoop MapReduce Tutorial](https://hadoop.apache.org/docs/current/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduceTutorial.html)  
+## Ressources 
+
+## 1. Cours en ligne - Introduction au Cloud Computing  
+👉 [IBM Cloud Computing Basics (edX)](https://www.edx.org/course/introduction-to-cloud-computing)  
+
+## 2. Documentation officielle des principaux fournisseurs de cloud  
+- **AWS** : [AWS Cloud Concepts](https://aws.amazon.com/what-is-cloud-computing/)  
+- **Azure** : [Microsoft Learn - Cloud Computing](https://learn.microsoft.com/en-us/training/azure/)  
+- **Google Cloud** : [Google Cloud Basics](https://cloud.google.com/docs/)  
+
+## 3. Livre Open Source - Cloud Computing for Science and Engineering  
+📖 [Lire en ligne](https://cloud4scieng.org/)  
+
+## 4. Tutoriels et formations Cloud Native  
+🚀 [The Linux Foundation - Cloud Native & Kubernetes](https://training.linuxfoundation.org/training/cloud-engineering/)  
+
+## 5. Big Data et Cloud Storage  
+📊 [Google Cloud - Data Engineering](https://cloud.google.com/learn/data-engineering)  
 
 
 ---
